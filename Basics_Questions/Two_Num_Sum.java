@@ -2,9 +2,9 @@ import java.util.*;
 
 class Two_Num_Sum 
 {
-    public int Addition(int num1, int num2)
+    public double Addition(double num1, double num2)
     {
-        int Result = num1 + num2;
+        double Result = num1 + num2;
         return Result;
     }
 
@@ -12,14 +12,14 @@ class Two_Num_Sum
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the First Number: ");
-        int iFirst = sc.nextInt();
+        System.out.print("Enter the First Number: ");
+        double iFirst = sc.nextDouble();
 
-        System.out.println("Enter the Second Number: ");
-        int iSecond = sc.nextInt();
+        System.out.print("Enter the Second Number: ");
+        double iSecond = sc.nextDouble();
 
         Two_Num_Sum obj = new Two_Num_Sum();
-        int iRet = obj.Addition(iFirst, iSecond);
+        double iRet = obj.Addition(iFirst, iSecond);
         System.out.println("Addition of Two Number is: "+iRet);
     }
 }
