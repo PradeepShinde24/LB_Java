@@ -19,7 +19,7 @@ class Two_Num_Sum
         double iSecond = sc.nextDouble();
 
         Two_Num_Sum obj = new Two_Num_Sum();
-        double iRet = obj.Addition(iFirst, iSecond);
-        System.out.println("Addition of Two Number is: "+iRet);
+        double iResult = obj.Addition(iFirst, iSecond);
+        System.out.println("Addition of Two Number is: "+iResult);
     }
 }

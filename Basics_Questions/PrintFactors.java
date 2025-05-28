@@ -23,7 +23,7 @@ class PrintFactors
         
         System.out.print("Factors of " + num1 + " are: ");
 
-        for (int i = 1; i * i <= num1; i++)
+        for (int i = 1; i <= num1/2; i++)
         {
             if (num1 % i == 0)
             {
