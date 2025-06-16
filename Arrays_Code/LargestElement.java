@@ -2,7 +2,7 @@ public class LargestElement
 {
     public static void main(String [] args)
     {
-        int arr [] = {3,4,1,5,2};
+        int arr [] = {3,-6,1,5,2};
 
         int largest = arr[0];
 
