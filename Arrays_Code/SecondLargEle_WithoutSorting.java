@@ -2,7 +2,7 @@ public class SecondLargEle_WithoutSorting
 {
      public static void main(String[] args)
      {
-        int[] arr = {5, 2, 9, 1, 7, 6};
+        int[] arr = {5, 2, -9, 1, 7, 6};
 
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
